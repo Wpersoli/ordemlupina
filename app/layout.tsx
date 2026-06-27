@@ -1,13 +1,18 @@
+import "./globals.css";
 
 export const metadata = {
-  title: 'Ordem Lupina',
-  description: 'Honra, Lealdade e Disciplina'
+  title: "Ordem Lupina",
+  description: "Honra • Lealdade • Disciplina"
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="pt-BR">
-      <body style={{margin:0,fontFamily:'Arial, sans-serif'}}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
