@@ -73,25 +73,25 @@ export default function HeroScene() {
           animation: cameraShake 5s infinite;
         }
 
-        /* ── FUNDO ── */
+        /* ── FUNDO ── (mesmo tratamento nítido e vívido da landing) */
         .hero-bg {
           position: absolute;
           inset: 0;
           background: url('/bg/AA-clean.png') center center / cover no-repeat;
           transform: scale(1.08);
-          filter: brightness(0.20) contrast(1.6) saturate(1.3);
+          filter: brightness(0.85) contrast(1.15) saturate(1.15);
           animation: slowZoom 22s infinite alternate ease-in-out;
         }
 
-        /* ── OVERLAY ── (único, sem conflito com globals.css) */
+        /* ── OVERLAY ── (suavizado para deixar a imagem visível, igual à landing) */
         .hero-overlay {
           position: absolute;
           inset: 0;
           background:
             radial-gradient(circle at center,
-              rgba(120,0,0,.10) 0%,
-              rgba(0,0,0,.55) 45%,
-              rgba(0,0,0,.97) 100%);
+              rgba(80,0,0,.28) 0%,
+              rgba(0,0,0,.55) 55%,
+              rgba(0,0,0,.88) 100%);
           z-index: 2;
         }
 
@@ -178,7 +178,7 @@ export default function HeroScene() {
         .hero-vignette {
           position: absolute;
           inset: 0;
-          box-shadow: inset 0 0 300px rgba(0,0,0,.85);
+          box-shadow: inset 0 0 240px rgba(0,0,0,.7);
           z-index: 12;
           pointer-events: none;
         }

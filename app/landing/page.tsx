@@ -25,7 +25,7 @@ export default function LandingPage() {
     <main
       style={{
         minHeight: "100vh",
-        backgroundImage: "url('/AA.png')",
+        backgroundImage: "url('/bg/AA-clean.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         display: "flex",
