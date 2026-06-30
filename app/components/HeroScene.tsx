@@ -79,19 +79,19 @@ export default function HeroScene() {
           inset: 0;
           background: url('/bg/AA-clean.png') center center / cover no-repeat;
           transform: scale(1.08);
-          filter: brightness(0.85) contrast(1.15) saturate(1.15);
+          filter: brightness(0.42) contrast(1.30) saturate(1.2);
           animation: slowZoom 22s infinite alternate ease-in-out;
         }
 
-        /* ── OVERLAY ── (suavizado para deixar a imagem visível, igual à landing) */
+        /* ── OVERLAY ── */
         .hero-overlay {
           position: absolute;
           inset: 0;
           background:
             radial-gradient(circle at center,
-              rgba(80,0,0,.28) 0%,
-              rgba(0,0,0,.55) 55%,
-              rgba(0,0,0,.88) 100%);
+              rgba(60,0,0,.25) 0%,
+              rgba(0,0,0,.72) 50%,
+              rgba(0,0,0,.96) 100%);
           z-index: 2;
         }
 
