@@ -385,7 +385,7 @@ export default function HeroScene() {
 
 @media (max-width:768px){
     .hero-content{
-        transform: translateY(80px);
+        transform: translateY(20px);
     }
         }
       `}</style>
