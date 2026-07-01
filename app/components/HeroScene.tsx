@@ -162,7 +162,7 @@ export default function HeroScene() {
           position: absolute; inset: 0;
           background: url('/bg/AA-clean.png') center center / cover no-repeat;
           transform: scale(11.08);
-          filter: brightness(0.72) contrast(1.30) saturate(1.2);
+          filter: brightness(0.92) contrast(1.30) saturate(1.2);
           animation: slowZoom 12s infinite alternate ease-in-out;
         }
 
@@ -264,7 +264,7 @@ export default function HeroScene() {
 
         .hero-logo {
           position: absolute;
-          width: 48%;
+          width: 68%;
           animation: logoBreath 3.5s infinite ease-in-out;
           z-index: 5;
           filter:
@@ -317,7 +317,7 @@ export default function HeroScene() {
 
         /* ── KEYFRAMES ── */
         @keyframes slowZoom {
-          from { transform: scale(1.08); } to { transform: scale(1.15); }
+          from { transform: scale(1); } to { transform: scale(1.15); }
         }
         @keyframes rainBack {
           from { background-position: 0 0; } to { background-position: 0 80px; }
