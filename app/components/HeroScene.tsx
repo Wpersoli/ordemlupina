@@ -379,10 +379,9 @@ export default function HeroScene() {
           32% { transform: translate(0, 0); }
         }
 
-        @media (max-width: 768px) {
-          .hero-content { transform: translateY(-70px); }
-          .hero-cta { padding: 12px 28px; }
-          .logo-orbit-wrapper { width: 220px; height: 220px; }
+       @media (max-width: 768px) {
+  .hero-content {
+    padding-top: 150px; }
         }
       `}</style>
     </section>
