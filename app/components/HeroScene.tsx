@@ -232,7 +232,7 @@ export default function HeroScene() {
         }
         .hero-content::before {
           content: "";
-          position: absolute; inset: -80px;
+          position: absolute; inset: -950px;
           background: radial-gradient(circle, rgba(0,0,0,.5), transparent 68%);
           z-index: -1;
         }
