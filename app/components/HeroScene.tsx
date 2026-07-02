@@ -130,7 +130,7 @@ export default function HeroScene() {
           <img src="/www.png" alt="Ordem Lupina" className="hero-logo" />
         </div>
 
-        <h1>ORDEM LUPINA</h1>
+        <h1>Ordem Lupina - Oficial</h1>
 
         <p className="hero-subtitle">
           FORÇA • HONRA • LEALDADE • DESTINO
@@ -162,7 +162,7 @@ export default function HeroScene() {
           position: absolute; inset: 0;
           background: url('/bg/AA-clean.png') center center / cover no-repeat;
           transform: scale(11.08);
-          filter: brightness(0.92) contrast(1.30) saturate(1.2);
+          filter: brightness(1.92) contrast(1.30) saturate(1.2);
           animation: slowZoom 12s infinite alternate ease-in-out;
         }
 
@@ -232,7 +232,7 @@ export default function HeroScene() {
         }
         .hero-content::before {
           content: "";
-          position: absolute; inset: -100px;
+          position: absolute; inset: -80px;
           background: radial-gradient(circle, rgba(0,0,0,.5), transparent 68%);
           z-index: -1;
         }

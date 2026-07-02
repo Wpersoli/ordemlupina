@@ -69,7 +69,7 @@ export default function IntroPage() {
             animation: "pulseGold 3s ease-in-out infinite",
           }}
         >
-          HONRA • LEALDADE • DISCIPLINA
+          FORÇA • HONRA • LEALDADE • DESTINO
         </p>
 
         {/* Separador decorativo */}
